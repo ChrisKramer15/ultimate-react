@@ -1,11 +1,15 @@
-import Alert from "./components/Alert";
+// import Alert from "./components/Alert";
+import BtnExercise from "./components/BtnExercise";
 
 function App() {
   return (
     <div>
-      <Alert>
+      {/* <Alert>
         Hello, <span>World!</span>
-      </Alert>
+      </Alert> */}
+      <BtnExercise>
+        Hello, <span>World!</span>
+      </BtnExercise>
     </div>
   );
 }
